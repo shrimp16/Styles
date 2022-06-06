@@ -1,0 +1,21 @@
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: auto;
+
+    button {
+        height: 4rem;
+        font-size: 1.5rem;
+        margin: 10px;
+        background-color: white;
+        border: 2px black solid;
+        transition: .5s;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: inset 0px 80px 0px black;
+            color: white;
+        }
+    }
+}

@@ -17,6 +17,10 @@
 
     div {
         margin-top: 10px;
+
+        button {
+            margin-left: 15px;
+        }
     }
 }
 
@@ -26,4 +30,13 @@
     border-radius: 25px;
     background-color: white;
     cursor: pointer;
+}
+
+.glowing-btn {
+    height: 3rem;
+    border: 2px black solid;
+    border-radius: 25px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px black;
 }

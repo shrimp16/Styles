@@ -75,4 +75,24 @@ table {
 .main-menu button:hover {
   box-shadow: inset 0px 80px 0px black;
   color: white;
+}
+
+.buttons-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-container {
+  height: 5rem;
+  width: 50rem;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.buttons-container h1 {
+  margin-top: 10px;
+}
+.buttons-container div {
+  margin-top: 10px;
 }/*# sourceMappingURL=main.css.map */

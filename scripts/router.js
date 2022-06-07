@@ -15,7 +15,7 @@ export default class Router {
         let hash = window.location.hash.substring(1);
 
         if(hash === ''){
-            return;
+            hash = 'home'
         }
 
         this.body.innerHTML = '';
@@ -25,5 +25,9 @@ export default class Router {
                 .then((response) => {
                     this.body.innerHTML = response;
                 }))
+
+        const eventListenerLoader = await import(`./eventListeners/${hash}.js`);
+        new eventListenerLoader.default();
+
     }
 }

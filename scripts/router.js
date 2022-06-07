@@ -13,8 +13,6 @@ export default class Router {
 
     async routeChangeHandler() {
         let hash = window.location.hash.substring(1);
-        
-        console.log(hash);
 
         if(hash === ''){
             return;

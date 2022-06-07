@@ -95,4 +95,12 @@ table {
 }
 .buttons-container div {
   margin-top: 10px;
+}
+
+.basic-btn {
+  height: 3rem;
+  border: 2px black solid;
+  border-radius: 25px;
+  background-color: white;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

@@ -98,6 +98,7 @@ table {
 }
 .buttons-container div button {
   margin-left: 15px;
+  width: 150px;
 }
 
 .basic-btn {
@@ -106,6 +107,42 @@ table {
   border-radius: 25px;
   background-color: white;
   cursor: pointer;
+  transition: 0.6s;
+}
+.basic-btn.blue {
+  border: 2px rgb(0, 0, 255) solid;
+  background-color: rgba(0, 0, 255, 0.3);
+}
+.basic-btn.blue:hover {
+  background-color: rgb(0, 0, 255);
+}
+.basic-btn.red {
+  border: 2px rgb(255, 0, 0) solid;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.basic-btn.red:hover {
+  background-color: rgb(255, 0, 0);
+}
+.basic-btn.green {
+  border: 2px rgb(0, 255, 0) solid;
+  background-color: rgba(0, 255, 0, 0.3);
+}
+.basic-btn.green:hover {
+  background-color: rgb(0, 255, 0);
+}
+.basic-btn.orange {
+  border: 2px rgb(255, 145, 0) solid;
+  background-color: rgba(255, 145, 0, 0.3);
+}
+.basic-btn.orange:hover {
+  background-color: rgb(255, 145, 0);
+}
+.basic-btn.purple {
+  border: 2px rgb(138, 43, 226) solid;
+  background-color: rgba(138, 43, 226, 0.3);
+}
+.basic-btn.purple:hover {
+  background-color: rgb(138, 43, 226);
 }
 
 .glowing-btn {

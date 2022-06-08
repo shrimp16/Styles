@@ -26,8 +26,13 @@ export default class Router {
                     this.body.innerHTML = response;
                 }))
 
-        const eventListenerLoader = await import(`./eventListeners/${hash}.js`);
-        new eventListenerLoader.default();
+        if(hash === 'home'){
+            const homeEventListeners = await import(`./eventListeners/home.js`);
+            new homeEventListeners.default();
+        }else {
+            const goBackSetup = await import(`./eventListeners/goBack.js`);
+            new goBackSetup.default();
+        }
 
     }
 }

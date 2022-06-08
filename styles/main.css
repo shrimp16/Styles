@@ -229,4 +229,17 @@ table {
 .glowing-btn.purple:hover {
   background-color: rgb(138, 43, 226);
   box-shadow: 0px 0px 20px rgb(138, 43, 226);
+}
+
+.fill-btn {
+  height: 3rem;
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 25px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.fill-btn:hover {
+  box-shadow: inset 0px 80px 0px black;
+  color: white;
 }/*# sourceMappingURL=main.css.map */

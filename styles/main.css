@@ -149,7 +149,6 @@ table {
 }
 
 .switches-container {
-  border: 3px black solid;
   height: 5rem;
   width: 25rem;
   margin: 10px;
@@ -159,7 +158,7 @@ table {
   margin-top: 10px;
 }
 .switches-container div {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .basic-btn {
@@ -337,6 +336,7 @@ table {
   background-color: white;
   transition: 0.5s;
   border: 2px black solid;
+  border-radius: 5px;
 }
 .slider.round {
   border-radius: 25px;
@@ -351,6 +351,7 @@ table {
   bottom: 3px;
   background-color: black;
   transition: 0.5s;
+  border-radius: 5px;
 }
 
 .slider.round::before {

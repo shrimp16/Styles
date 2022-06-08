@@ -1,4 +1,5 @@
 export default class Home {
+    
     constructor() {
 
         document.getElementById('headers').addEventListener('click', () => {

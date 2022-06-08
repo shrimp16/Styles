@@ -25,6 +25,10 @@
     &.round {
         border-radius: 25px;
     }
+
+    &.blue {
+        border: 2px rgba(0, 0, 255, 1) solid;
+    }
 }
 
 .slider::before{
@@ -43,11 +47,19 @@
     &.round::before{
         border-radius: 25px;
     }
+
+    &.blue::before {
+        background-color: rgba(0, 0, 255, 1);
+    }
 }
 
 input:checked {
     + .slider {
         background-color: black;
+
+        &.blue {
+            background-color: rgba(0, 0, 255, 1);
+        }
     }
 
     + .slider::before {

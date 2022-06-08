@@ -341,6 +341,9 @@ table {
 .slider.round {
   border-radius: 25px;
 }
+.slider.blue {
+  border: 2px rgb(0, 0, 255) solid;
+}
 
 .slider::before {
   position: absolute;
@@ -357,9 +360,15 @@ table {
 .slider.round::before {
   border-radius: 25px;
 }
+.slider.blue::before {
+  background-color: rgb(0, 0, 255);
+}
 
 input:checked + .slider {
   background-color: black;
+}
+input:checked + .slider.blue {
+  background-color: rgb(0, 0, 255);
 }
 input:checked + .slider::before {
   background-color: white;

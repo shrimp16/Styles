@@ -57,6 +57,25 @@ table {
   -webkit-text-fill-color: transparent;
 }
 
+.title {
+  font-size: 1.5rem;
+}
+.title.blue {
+  color: rgb(0, 0, 255);
+}
+.title.red {
+  color: rgb(255, 0, 0);
+}
+.title.green {
+  color: rgb(0, 255, 0);
+}
+.title.orange {
+  color: rgb(255, 145, 0);
+}
+.title.purple {
+  color: rgb(138, 43, 226);
+}
+
 .main-menu {
   display: flex;
   flex-direction: column;
@@ -120,25 +139,6 @@ table {
 .go-back:hover {
   box-shadow: inset 0px 80px 0px black;
   color: white;
-}
-
-.title {
-  font-size: 1.5rem;
-}
-.title.blue {
-  color: rgb(0, 0, 255);
-}
-.title.red {
-  color: rgb(255, 0, 0);
-}
-.title.green {
-  color: rgb(0, 255, 0);
-}
-.title.orange {
-  color: rgb(255, 145, 0);
-}
-.title.purple {
-  color: rgb(138, 43, 226);
 }
 
 .basic-btn {

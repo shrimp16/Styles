@@ -141,6 +141,27 @@ table {
   color: white;
 }
 
+.switches-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.switches-container {
+  border: 3px black solid;
+  height: 5rem;
+  width: 25rem;
+  margin: 10px;
+  text-align: center;
+}
+.switches-container h1 {
+  margin-top: 10px;
+}
+.switches-container div {
+  margin-top: 10px;
+}
+
 .basic-btn {
   height: 3rem;
   border: 2px black solid;

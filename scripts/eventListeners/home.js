@@ -17,7 +17,7 @@ export default class Home {
             window.location.hash = '#borders';
         })
 
-        document.getElementById('imges').addEventListener('click', () => {
+        document.getElementById('images').addEventListener('click', () => {
             window.location.hash = '#images';
         })
 

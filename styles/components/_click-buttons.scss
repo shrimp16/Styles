@@ -1,0 +1,16 @@
+.click-btn {
+    border: 2px black solid;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 9px rgba(111, 111, 111, 1);
+    background-color: white;
+    transition: 0.3s;
+
+    &:active {
+        color: white;
+        background-color: black;
+        box-shadow: 0 5px rgba(111, 111, 111, 0.5);
+        transform: translateY(4px);
+    }
+}

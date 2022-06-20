@@ -22,6 +22,10 @@ export default class Home {
             window.location.hash = '#images';
         })
 
+        document.getElementById('icons').addEventListener('click', () => {
+            window.location.hash = '#icons';
+        })
+
     }
 
 }

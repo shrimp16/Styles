@@ -426,4 +426,49 @@ input:checked + .slider::before {
   background-color: black;
   box-shadow: 0 5px rgba(111, 111, 111, 0.5);
   transform: translateY(4px);
+}
+.click-btn.blue {
+  box-shadow: 0 9px rgb(0, 0, 255);
+  background-color: rgba(0, 0, 255, 0.3);
+  border: 2px rgb(0, 0, 255) solid;
+}
+.click-btn.blue:active {
+  background-color: rgb(0, 0, 255);
+  box-shadow: 0 5px rgba(0, 0, 255, 0.3);
+}
+.click-btn.red {
+  box-shadow: 0 9px rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
+  border: 2px rgb(255, 0, 0) solid;
+}
+.click-btn.red:active {
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 5px rgba(255, 0, 0, 0.3);
+}
+.click-btn.green {
+  box-shadow: 0 9px rgb(0, 255, 0);
+  background-color: rgba(0, 255, 0, 0.3);
+  border: 2px rgb(0, 255, 0) solid;
+}
+.click-btn.green:active {
+  background-color: rgb(0, 255, 0);
+  box-shadow: 0 5px rgba(0, 255, 0, 0.3);
+}
+.click-btn.orange {
+  box-shadow: 0 9px rgb(255, 145, 0);
+  background-color: rgba(255, 145, 0, 0.3);
+  border: 2px rgb(255, 145, 0) solid;
+}
+.click-btn.orange:active {
+  background-color: rgb(255, 145, 0);
+  box-shadow: 0 5px rgba(255, 145, 0, 0.3);
+}
+.click-btn.purple {
+  box-shadow: 0 9px rgb(138, 43, 226);
+  background-color: rgba(138, 43, 226, 0.3);
+  border: 2px rgb(138, 43, 226) solid;
+}
+.click-btn.purple:active {
+  background-color: rgb(138, 43, 226);
+  box-shadow: 0 5px rgba(138, 43, 226, 0.3);
 }/*# sourceMappingURL=main.css.map */

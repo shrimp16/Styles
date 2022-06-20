@@ -13,4 +13,65 @@
         box-shadow: 0 5px rgba(111, 111, 111, 0.5);
         transform: translateY(4px);
     }
+
+    &.blue {
+
+        box-shadow: 0 9px rgba(0, 0, 255, 1);
+        background-color: rgba(0, 0, 255, 0.3);
+        border: 2px rgba(0, 0, 255, 1) solid;
+
+        &:active {
+            background-color: rgba(0, 0, 255, 1);
+            box-shadow: 0 5px rgba(0, 0, 255, 0.3);
+        }
+    }
+
+    &.red {
+
+        box-shadow: 0 9px rgba(255, 0, 0, 1);
+        background-color: rgba(255, 0, 0, 0.3);
+        border: 2px rgba(255, 0, 0, 1) solid;
+
+        &:active {
+            background-color: rgba(255, 0, 0, 1);
+            box-shadow: 0 5px rgba(255, 0, 0, 0.3);
+        }
+    }
+
+    &.green {
+
+        box-shadow: 0 9px rgba(0, 255, 0, 1);
+        background-color: rgba(0, 255, 0, 0.3);
+        border: 2px rgba(0, 255, 0, 1) solid;
+
+        &:active {
+            background-color: rgba(0, 255, 0, 1);
+            box-shadow: 0 5px rgba(0, 255, 0, 0.3);
+        }
+    }
+
+    &.orange {
+
+        box-shadow: 0 9px rgba(255, 145, 0, 1);
+        background-color: rgba(255, 145, 0, 0.3);
+        border: 2px rgba(255, 145, 0, 1) solid;
+
+        &:active {
+            background-color: rgba(255, 145, 0, 1);
+            box-shadow: 0 5px rgba(255, 145, 0, 0.3);
+        }
+    }
+
+    &.purple {
+
+        box-shadow: 0 9px rgba(138, 43, 226, 1);
+        background-color: rgba(138, 43, 226, 0.3);
+        border: 2px rgba(138, 43, 226, 1) solid;
+
+        &:active {
+            background-color: rgba(138, 43, 226, 1);
+            box-shadow: 0 5px rgba(138, 43, 226, 0.3);
+        }
+    }
+
 }

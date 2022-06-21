@@ -1,3 +1,5 @@
+@use '../utilities/' as *;
+
 .click-btn {
     border: 2px black solid;
     border-radius: 25px;
@@ -16,74 +18,74 @@
 
     &.blue {
 
-        box-shadow: 0 9px rgba(0, 0, 255, 1);
-        background-color: rgba(0, 0, 255, 0.3);
-        border: 2px rgba(0, 0, 255, 1) solid;
+        box-shadow: 0 9px $blue;
+        background-color: $blue-light;
+        border: 2px $blue solid;
 
         &:active {
-            background-color: rgba(0, 0, 255, 1);
-            box-shadow: 0 5px rgba(0, 0, 255, 0.3);
+            background-color: $blue;
+            box-shadow: 0 5px $blue-light;
         }
     }
 
     &.red {
 
-        box-shadow: 0 9px rgba(255, 0, 0, 1);
-        background-color: rgba(255, 0, 0, 0.3);
-        border: 2px rgba(255, 0, 0, 1) solid;
+        box-shadow: 0 9px $red;
+        background-color: $red-light;
+        border: 2px $red solid;
 
         &:active {
-            background-color: rgba(255, 0, 0, 1);
-            box-shadow: 0 5px rgba(255, 0, 0, 0.3);
+            background-color: $red;
+            box-shadow: 0 5px $red-light;
         }
     }
 
     &.green {
 
-        box-shadow: 0 9px rgba(0, 255, 0, 1);
-        background-color: rgba(0, 255, 0, 0.3);
-        border: 2px rgba(0, 255, 0, 1) solid;
+        box-shadow: 0 9px $green;
+        background-color: $green-light;
+        border: 2px $green solid;
 
         &:active {
-            background-color: rgba(0, 255, 0, 1);
-            box-shadow: 0 5px rgba(0, 255, 0, 0.3);
+            background-color: $green;
+            box-shadow: 0 5px $green-light;
         }
     }
 
     &.yellow {
 
-        box-shadow: 0 9px rgba(255, 255, 0, 1);
-        background-color: rgba(255, 255, 0, 0.3);
-        border: 2px rgba(255, 255, 0, 1) solid;
+        box-shadow: 0 9px $yellow;
+        background-color: $yellow-light;
+        border: 2px $yellow solid;
 
         &:active {
             color: black;
-            background-color: rgba(255, 255, 0, 1);
-            box-shadow: 0 5px rgba(255, 255, 0, 0.3);
+            background-color: $yellow;
+            box-shadow: 0 5px $yellow-light;
         }
     }
 
     &.orange {
 
-        box-shadow: 0 9px rgba(255, 145, 0, 1);
-        background-color: rgba(255, 145, 0, 0.3);
-        border: 2px rgba(255, 145, 0, 1) solid;
+        box-shadow: 0 9px $orange;
+        background-color: $orange-light;
+        border: 2px $orange solid;
 
         &:active {
-            background-color: rgba(255, 145, 0, 1);
-            box-shadow: 0 5px rgba(255, 145, 0, 0.3);
+            background-color: $orange;
+            box-shadow: 0 5px $orange-light;
         }
     }
 
     &.purple {
 
-        box-shadow: 0 9px rgba(138, 43, 226, 1);
-        background-color: rgba(138, 43, 226, 0.3);
-        border: 2px rgba(138, 43, 226, 1) solid;
+        box-shadow: 0 9px $purple;
+        background-color: $purple-light;
+        border: 2px $purple solid;
 
         &:active {
-            background-color: rgba(138, 43, 226, 1);
-            box-shadow: 0 5px rgba(138, 43, 226, 0.3);
+            background-color: $purple;
+            box-shadow: 0 5px $purple-light;
         }
     }
 

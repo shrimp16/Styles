@@ -1,3 +1,5 @@
+@use '../utilities/' as *;
+
 .fill-btn {
     height: 3rem;
     background-color: white;
@@ -12,52 +14,52 @@
     }
     
     &.blue {
-        border: 2px rgba(0, 0, 255, 1) solid;
+        border: 2px $blue solid;
 
         &:hover {
-            box-shadow: inset 0px 80px 0px rgba(0, 0, 255, 1);
+            box-shadow: inset 0px 80px 0px $blue;
         }
     }
 
     &.red {
-        border: 2px rgba(255, 0, 0, 1) solid;
+        border: 2px $red solid;
 
         &:hover {
-            box-shadow: inset 0px 80px 0px rgba(255, 0, 0, 1);
+            box-shadow: inset 0px 80px 0px $red;
         }
     }
 
     &.green{
-        border: 2px rgba(0, 255, 0, 1) solid;
+        border: 2px $green solid;
 
         &:hover {
-            box-shadow: inset 0px 80px 0px rgba(0, 255, 0, 1);
+            box-shadow: inset 0px 80px 0px $green;
             color: black;
         }
     }
 
     &.yellow {
-        border: 2px rgba(255, 255, 0, 1) solid;
+        border: 2px $yellow solid;
 
         &:hover {
             color: black;
-            box-shadow: inset 0px 80px 0px rgba(255, 255, 0, 1);
+            box-shadow: inset 0px 80px 0px $yellow;
         }
     }
 
     &.orange {
-        border: 2px rgba(255, 145, 0, 1) solid;
+        border: 2px $orange solid;
 
         &:hover {
-            box-shadow: inset 0px 80px 0px rgba(255, 145, 0, 1);
+            box-shadow: inset 0px 80px 0px $orange;
         }
     }
     
     &.purple {
-        border: 2px rgba(138, 43, 226, 1) solid;
+        border: 2px $purple solid;
 
         &:hover {
-            box-shadow: inset 0px 80px 0px rgba(138, 43, 226, 1);
+            box-shadow: inset 0px 80px 0px $purple;
         }
     }
 }

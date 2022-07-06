@@ -37,4 +37,36 @@
             background: linear-gradient(135deg, $red, $blue);
         }
     }
+
+    &.red-green {
+        @include fade();
+
+        &::before {
+            background: linear-gradient(135deg, $red, $green);
+        }
+    }
+
+    &.green-blue {
+        @include fade();
+
+        &::before {
+            background: linear-gradient(135deg, $green, $blue);
+        }
+    }
+
+    &.red-orange {
+        @include fade();
+
+        &::before {
+            background: linear-gradient(135deg, $red, $orange);
+        }
+    }
+
+    &.orange-blue {
+        @include fade();
+
+        &::before {
+            background: linear-gradient(135deg, $orange, $blue);
+        }
+    }
 }

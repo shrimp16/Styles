@@ -1,0 +1,10 @@
+.border-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    width: 85%;
+    margin: auto;
+
+    * {
+        margin: auto;
+    }
+}

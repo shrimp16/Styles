@@ -5,6 +5,7 @@ import { Home } from './Components/Home';
 import { Icons } from './Components/Icons';
 import { Images } from './Components/Images';
 import { Switches } from './Components/Switches';
+import { Guide } from './Components/Guide';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/icons' element={<Icons />}></Route>
         <Route path='/images' element={<Images />}></Route>
         <Route path='/switches' element={<Switches />}></Route>
+        <Route path='/guide' element={<Guide />}></Route>
       </Routes>
     </Router>
   );

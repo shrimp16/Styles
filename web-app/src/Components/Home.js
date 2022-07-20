@@ -18,6 +18,7 @@ export function Home(){
                 <SimpleButton onClick={() => goTo("icons")} color="0, 0, 0">Icons</SimpleButton>
                 <SimpleButton onClick={() => goTo("images")} color="0, 0, 0">Images</SimpleButton>
                 <SimpleButton onClick={() => goTo("switches")} color="0, 0, 0">Switches</SimpleButton>
+                <SimpleButton onClick={() => goTo("guide")} color="0, 0, 0">Guide</SimpleButton>
             </HomeButtonsContainer>
         </>
     )

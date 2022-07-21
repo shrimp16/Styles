@@ -1,5 +1,6 @@
 import { SimpleButton } from '../styles/Buttons.styled';
 import { ButtonsContainer } from '../styles/Containers.styled';
+import { SubHeader, HomeHeader } from '../styles/Headers.styled';
 
 export function Buttons() {
 
@@ -12,6 +13,8 @@ export function Buttons() {
 
     return (
         <>
+            <HomeHeader>Buttons</HomeHeader>
+            <SubHeader>Simple Buttons</SubHeader>
             <ButtonsContainer>
                 <SimpleButton onClick={test} color="0, 0, 0">Simple Button</SimpleButton>
                 <SimpleButton color="255, 0, 0">Red Simple Button</SimpleButton>

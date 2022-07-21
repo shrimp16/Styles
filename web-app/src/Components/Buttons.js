@@ -26,6 +26,11 @@ export function Buttons() {
             <SubHeader>Glowing Buttons</SubHeader>
             <ButtonsContainer>
                 <GlowingButton color="0, 0, 0">Glowing Button</GlowingButton>
+                <GlowingButton color="255, 0, 0">Red Glowing Button</GlowingButton>
+                <GlowingButton color="0, 255, 0">Green Glowing Button</GlowingButton>
+                <GlowingButton color="0, 0, 255">Blue Glowing Button</GlowingButton>
+                <GlowingButton color="255, 145, 0">Orange Glowing Button</GlowingButton>
+                <GlowingButton color="138, 43, 226">Purple Glowing Button</GlowingButton>
             </ButtonsContainer>
         </>
     )

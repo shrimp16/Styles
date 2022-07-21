@@ -1,4 +1,4 @@
-import { SimpleButton } from '../styles/Buttons.styled';
+import { SimpleButton, GlowingButton } from '../styles/Buttons.styled';
 import { ButtonsContainer } from '../styles/Containers.styled';
 import { SubHeader, HomeHeader } from '../styles/Headers.styled';
 
@@ -22,6 +22,10 @@ export function Buttons() {
                 <SimpleButton color="0, 0, 255">Blue Simple Button</SimpleButton>
                 <SimpleButton color="255, 145, 0">Orange Simple Button</SimpleButton>
                 <SimpleButton color="138, 43, 226">Purple Simple Button</SimpleButton>
+            </ButtonsContainer>
+            <SubHeader>Glowing Buttons</SubHeader>
+            <ButtonsContainer>
+                <GlowingButton color="0, 0, 0">Glowing Button</GlowingButton>
             </ButtonsContainer>
         </>
     )

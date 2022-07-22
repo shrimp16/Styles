@@ -35,6 +35,11 @@ export function Buttons() {
             <SubHeader>Fill Buttons</SubHeader>
             <ButtonsContainer>
                 <FillButton color="0, 0, 0">Fill Button</FillButton>
+                <FillButton color="255, 0, 0">Red Fill Button</FillButton>
+                <FillButton color="0, 255, 0">Green Fill Button</FillButton>
+                <FillButton color="0, 0, 255">Blue Fill Button</FillButton>
+                <FillButton color="255, 145, 0">Orange Fill Button</FillButton>
+                <FillButton color="138, 43, 226">Purple Fill Button</FillButton>
             </ButtonsContainer>
         </>
     )

@@ -32,3 +32,18 @@ export const GlowingButton = styled.button`
     }
 
 `
+
+export const FillButton = styled.button`
+    height: 3rem;
+    width: 10rem;
+    background-color: ${props => `rgba(${props.color}, 0.3)`};
+    border: 2px ${props => `rgba(${props.color}, 1)`} solid;
+    border-radius: 5px;
+    transition: .7s;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: inset 0px 80px 0px ${props => `rgba(${props.color}, 1)`};
+        color: white;
+    }
+`

@@ -1,5 +1,5 @@
 import { HomeButtonsContainer } from "../styles/Home.styled"
-import { SimpleButton } from "../styles/Buttons.styled"
+import { FillButton } from "../styles/Buttons.styled"
 import { HomeHeader } from "../styles/Headers.styled"
 
 export function Home(){
@@ -12,13 +12,13 @@ export function Home(){
         <>
             <HomeHeader>Shrimp Styles</HomeHeader>
             <HomeButtonsContainer>
-                <SimpleButton onClick={() => goTo("borders")} color="0, 0, 0">Borders</SimpleButton>
-                <SimpleButton onClick={() => goTo("buttons")} color="0, 0, 0">Buttons</SimpleButton>
-                <SimpleButton onClick={() => goTo("headers")} color="0, 0, 0">Headers</SimpleButton>
-                <SimpleButton onClick={() => goTo("icons")} color="0, 0, 0">Icons</SimpleButton>
-                <SimpleButton onClick={() => goTo("images")} color="0, 0, 0">Images</SimpleButton>
-                <SimpleButton onClick={() => goTo("switches")} color="0, 0, 0">Switches</SimpleButton>
-                <SimpleButton onClick={() => goTo("guide")} color="0, 0, 0">Guide</SimpleButton>
+                <FillButton onClick={() => goTo("borders")} color="0, 0, 0">Borders</FillButton>
+                <FillButton onClick={() => goTo("buttons")} color="0, 0, 0">Buttons</FillButton>
+                <FillButton onClick={() => goTo("headers")} color="0, 0, 0">Headers</FillButton>
+                <FillButton onClick={() => goTo("icons")} color="0, 0, 0">Icons</FillButton>
+                <FillButton onClick={() => goTo("images")} color="0, 0, 0">Images</FillButton>
+                <FillButton onClick={() => goTo("switches")} color="0, 0, 0">Switches</FillButton>
+                <FillButton onClick={() => goTo("guide")} color="0, 0, 0">Guide</FillButton>
             </HomeButtonsContainer>
         </>
     )

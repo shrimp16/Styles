@@ -1,6 +1,7 @@
 import { SimpleButton, GlowingButton, FillButton } from '../styles/Buttons.styled';
 import { ButtonsContainer } from '../styles/Containers.styled';
 import { SubHeader, HomeHeader } from '../styles/Headers.styled';
+import { GoBackButton } from './GoBackButton';
 
 export function Buttons() {
 
@@ -41,6 +42,8 @@ export function Buttons() {
                 <FillButton color="255, 145, 0">Orange Fill Button</FillButton>
                 <FillButton color="138, 43, 226">Purple Fill Button</FillButton>
             </ButtonsContainer>
+            <br></br>
+            <GoBackButton />
         </>
     )
 }

@@ -2,10 +2,10 @@ import { GoBackButton } from "./GoBackButton";
 
 import { SquaredSwitch } from '../styles/Switches.styled';
 
-export function Switches(){
+export function Switches() {
     return (
         <>
-            <SquaredSwitch>
+            <SquaredSwitch color="00, 0, 0">
                 <input type="checkbox"></input>
                 <span></span>
             </SquaredSwitch>

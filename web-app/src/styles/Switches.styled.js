@@ -20,7 +20,7 @@ export const SquaredSwitch = styled.label`
         bottom: 0;
         background-color: white;
         transition: 0.5s;
-        border: 2px black solid;
+        border: 2px ${props => `rgba(${props.color}, 1)`} solid;
         border-radius: 5px;
 
         &::before {
@@ -30,7 +30,7 @@ export const SquaredSwitch = styled.label`
             width: 1rem;
             left: 5px;
             bottom: 3px;
-            background-color: black;
+            background-color: ${props => `rgba(${props.color}, 1)`};
             transition: 0.5s;
             border-radius: 5px;
         }
@@ -38,7 +38,7 @@ export const SquaredSwitch = styled.label`
 
     input:checked {
         + span {
-            background-color: black;
+            background-color: ${props => `rgba(${props.color}, 1)`};
         }
 
         + span::before {

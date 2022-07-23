@@ -45,6 +45,11 @@ export function Buttons() {
             <SubHeader>Click Buttons</SubHeader>
             <ButtonsContainer>
                 <ClickButton color="0, 0, 0">Click Button</ClickButton>
+                <ClickButton color="255, 0, 0">Red Click Button</ClickButton>
+                <ClickButton color="0, 255, 0">Green Click Button</ClickButton>
+                <ClickButton color="0, 0, 255">Blue Click Button</ClickButton>
+                <ClickButton color="255, 145, 0">Orange Click Button</ClickButton>
+                <ClickButton color="138, 43, 226">Purple Click Button</ClickButton>
             </ButtonsContainer>
             <br></br>
             <GoBackButton />

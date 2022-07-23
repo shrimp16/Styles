@@ -1,4 +1,4 @@
-import { SimpleButton, GlowingButton, FillButton } from '../styles/Buttons.styled';
+import { SimpleButton, GlowingButton, FillButton, ClickButton } from '../styles/Buttons.styled';
 import { ButtonsContainer } from '../styles/Containers.styled';
 import { SubHeader, HomeHeader } from '../styles/Headers.styled';
 import { GoBackButton } from './GoBackButton';
@@ -41,6 +41,10 @@ export function Buttons() {
                 <FillButton color="0, 0, 255">Blue Fill Button</FillButton>
                 <FillButton color="255, 145, 0">Orange Fill Button</FillButton>
                 <FillButton color="138, 43, 226">Purple Fill Button</FillButton>
+            </ButtonsContainer>
+            <SubHeader>Click Buttons</SubHeader>
+            <ButtonsContainer>
+                <ClickButton color="0, 0, 0">Click Button</ClickButton>
             </ButtonsContainer>
             <br></br>
             <GoBackButton />

@@ -47,3 +47,22 @@ export const FillButton = styled.button`
         color: white;
     }
 `
+
+export const ClickButton = styled.button`
+    height: 3rem;
+    width: 10rem;
+    border: 2px ${props => `rgba(${props.color}, 1)`} solid;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 9px ${props => `rgba(${props.color}, 0.5)`};
+    background-color: ${props => `rgba(${props.color}, 0.3)`};
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:active {
+        color: white;
+        background-color: ${props => `rgba(${props.color}, 1)`};
+        box-shadow: 0 5px ${props => `rgba(${props.color}, 0.25)`};
+        transform: translateY(4px);
+    }
+`

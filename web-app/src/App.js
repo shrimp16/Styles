@@ -8,6 +8,7 @@ import { Switches } from './Components/Switches';
 import { Guide } from './Components/Guide';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { FourOFour } from './Components/404-examples';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/images' element={<Images />}></Route>
         <Route path='/switches' element={<Switches />}></Route>
         <Route path='/guide' element={<Guide />}></Route>
+        <Route path='/404-example' element={<FourOFour />}></Route>
       </Routes>
     </Router>
   );

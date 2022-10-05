@@ -18,6 +18,7 @@ export function Home(){
                 <FillButton onClick={() => goTo("icons")} color="0, 0, 0">Icons</FillButton>
                 <FillButton onClick={() => goTo("images")} color="0, 0, 0">Images</FillButton>
                 <FillButton onClick={() => goTo("switches")} color="0, 0, 0">Switches</FillButton>
+                <FillButton onClick={() => goTo("404-example")} color="0, 0, 0">404</FillButton>
                 <FillButton onClick={() => goTo("guide")} color="0, 0, 0">Guide</FillButton>
             </HomeButtonsContainer>
         </>
